@@ -1,0 +1,239 @@
+=== LabelStage Run #0 ==========
+
+Time elapsed: 00:00:01.2031250
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+Wire  |Wire  |Label |Label |Label |Label |Label |Gate  |Gate  |Wire  |Label |Label |Label |Label |Label |Label |Wire  |Wire  |Gate  |Gate  |Wire  |Label |Label |Label |Label |Label |Label |Wire  |Wire  |Gate  |Gate  |Wire  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Wire  |Label |Label |Label |Label |
+Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Gate  |Gate  |Nongat|Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|
+
+=== Confusion matrix ==============
+      |  Wire|  Gate| Label|     ?
+Nongat|    14|     0|    21|     0
+  Gate|     0|    10|     0|     0
+
+=== Translated Confusion matrix ===
+      |Nongat|  Gate
+Nongat|    35|     0
+  Gate|     0|    10
+
+
+=== LabelStage Run #1 ==========
+
+Time elapsed: 00:00:00.1562500
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+Wire  |Wire  |Gate  |Gate  |Wire  |Label |Label |Label |Label |
+Nongat|Nongat|Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|
+
+=== Confusion matrix ==============
+      |  Wire|  Gate| Label|     ?
+Nongat|     3|     0|     4|     0
+  Gate|     0|     2|     0|     0
+
+=== Translated Confusion matrix ===
+      |Nongat|  Gate
+Nongat|     7|     0
+  Gate|     0|     2
+
+
+=== LabelStage Run #2 ==========
+
+Time elapsed: 00:00:00.1875000
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+Gate  |Gate  |Wire  |Wire  |Label |Label |Wire  |Label |Label |
+Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|
+
+=== Confusion matrix ==============
+      |  Wire|  Gate| Label|     ?
+Nongat|     3|     0|     4|     0
+  Gate|     0|     2|     0|     0
+
+=== Translated Confusion matrix ===
+      |Nongat|  Gate
+Nongat|     7|     0
+  Gate|     0|     2
+
+
+=== LabelStage Run #3 ==========
+
+Time elapsed: 00:00:00.3437500
+Hand-labeled sketch: 1 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+Gate  |?     |Gate  |Gate  |Wire  |Wire  |Label |Label |Label |Label |Wire  |Label |
+Gate  |Gate  |Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|
+
+=== Confusion matrix ==============
+      |  Wire|  Gate| Label|     ?
+Nongat|     3|     0|     5|     0
+  Gate|     0|     3|     0|     1
+
+=== Translated Confusion matrix ===
+      |Nongat|  Gate
+Nongat|     8|     0
+  Gate|     0|     3
+
+
+=== LabelStage Run #4 ==========
+
+Time elapsed: 00:00:01.0312500
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Gate  |Gate  |Gate  |Gate  |Wire  |Label |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |
+Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Gate  |Gate  |Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|
+
+=== Confusion matrix ==============
+      |  Wire|  Gate| Label|     ?
+Nongat|    11|     0|    12|     0
+  Gate|     0|     6|     0|     0
+
+=== Translated Confusion matrix ===
+      |Nongat|  Gate
+Nongat|    23|     0
+  Gate|     0|     6
+
+
+=== LabelStage Run #5 ==========
+
+Time elapsed: 00:00:01.6250000
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Label |Label |Label |Label |Gate  |Wire  |Wire  |Wire  |Label |Label |Label |Label |Wire  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Gate  |Gate  |Wire  |Label |Label |
+Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Gate  |Gate  |Gate  |Gate  |Nongat|Nongat|Nongat|Gate  |Gate  |Nongat|Nongat|Nongat|
+
+=== Confusion matrix ==============
+      |  Wire|  Gate| Label|     ?
+Nongat|    12|     0|    10|     0
+  Gate|     0|     9|     0|     0
+
+=== Translated Confusion matrix ===
+      |Nongat|  Gate
+Nongat|    22|     0
+  Gate|     0|     9
+
+
+=== LabelStage Run #6 ==========
+
+Time elapsed: 00:00:01.7187500
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+Gate  |Gate  |Wire  |Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Wire  |Gate  |Gate  |Gate  |Gate  |Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Wire  |Wire  |Wire  |Label |Label |Label |Label |Wire  |Label |Label |Label |
+Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Gate  |Gate  |Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|
+
+=== Confusion matrix ==============
+      |  Wire|  Gate| Label|     ?
+Nongat|     6|     0|    36|     0
+  Gate|     0|     6|     0|     0
+
+=== Translated Confusion matrix ===
+      |Nongat|  Gate
+Nongat|    42|     0
+  Gate|     0|     6
+
+
+=== LabelStage Run #7 ==========
+
+Time elapsed: 00:00:01.1875000
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Label |Label |Label |Wire  |Label |Label |Label |Label |Wire  |Label |Label |Wire  |Label |Wire  |Label |Wire  |Label |Label |Label |
+Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Gate  |Gate  |Gate  |Nongat|Nongat|Nongat|Gate  |Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|
+
+=== Confusion matrix ==============
+      |  Wire|  Gate| Label|     ?
+Nongat|    14|     0|    14|     0
+  Gate|     0|    12|     0|     0
+
+=== Translated Confusion matrix ===
+      |Nongat|  Gate
+Nongat|    28|     0
+  Gate|     0|    12
+
+
+=== LabelStage Run #8 ==========
+
+Time elapsed: 00:00:01.3750000
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Label |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Label |Label |Label |Wire  |
+Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Gate  |Gate  |Gate  |Nongat|Nongat|Gate  |Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Gate  |Gate  |Gate  |Nongat|Nongat|Nongat|Gate  |Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|
+
+=== Confusion matrix ==============
+      |  Wire|  Gate| Label|     ?
+Nongat|    16|     0|    14|     0
+  Gate|     0|    12|     0|     0
+
+=== Translated Confusion matrix ===
+      |Nongat|  Gate
+Nongat|    30|     0
+  Gate|     0|    12
+
+
+=== LabelStage Run #9 ==========
+
+Time elapsed: 00:00:01.5000000
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+Label |Label |Label |Label |Label |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Wire  |Label |
+Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Gate  |Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|Gate  |Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Gate  |Gate  |Gate  |Nongat|Nongat|Nongat|Gate  |Gate  |Gate  |Nongat|Nongat|Nongat|Nongat|Nongat|Nongat|
+
+=== Confusion matrix ==============
+      |  Wire|  Gate| Label|     ?
+Nongat|    20|     0|     6|     0
+  Gate|     0|    12|     0|     0
+
+=== Translated Confusion matrix ===
+      |Nongat|  Gate
+Nongat|    26|     0
+  Gate|     0|    12
+
+
+
+
+===============================================
+=== TOTAL RESULTS =============================
+===============================================
+
+Total time elapsed: 00:00:10.3281250
+Avg time elapsed:   00:00:01.0330000
+Max time elapsed:   00:00:01.7187500
+
+Hand-labeled sketches: 1 unlabeled,  0 overlabeled substrokes
+Resulting sketches:    0 unlabeled,  0 overlabeled substrokes
+
+=== TOTAL CONFUSION MATRIX ====================
+      |  Wire|  Gate| Label|     ?
+Nongat|   102|     0|   126|     0
+  Gate|     0|    74|     0|     1
+
+
+=== TOTAL TRANSLATED CONFUSION MATRIX =========
+      |Nongat|  Gate
+Nongat|   228|     0
+  Gate|     0|    74
+
+=== OVERALL ACCURACY ==========================
+Nongate: 1
+Gate: 1
+
+All: 1

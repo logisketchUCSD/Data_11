@@ -1,0 +1,48 @@
+Chart 1
+X-Axis: Number of files used to train with
+Y-Axis: Average time taken to train on that number of files
+Series: Different combinations of domains (wgl2 and tnt) and fragmented or 
+non-fragmented on the sketches while training
+
+Chart 2
+X-Axis: Number of files used to train with
+Y-Axis: Average overall accuracy when tested on testSet
+Series: Different combinations of fragmented during training or not and fragmented 
+during testing or not
+	train only: fragmented while training; not fragmented while testing (these were 
+		the standard training and testing conditions)
+	both frag: fragmented while both training and testing
+	no frag: not fragmented during either training or testing
+	test only: not fragmented while training; fragmented while testing
+
+Chart 3
+X-Axis: Number of files used to train with
+Y-Axis: Average individual accuracies using wgl2 tested on testSet
+Series: Wire, gate, and label accuracies
+
+Chart 4
+X-Axis: Number of files  used to train with
+Y-Axis: Average accuracy using tnt tested on testSet
+Series: Non-text, text, and overall accuracies
+
+Chart 5
+X-Axis: Number of files used to train with
+Y-Axis: Accuracy using wgl2 tested on testSet (Note this is NOT average accuracy)
+Series: Wire, label, gate, and overall accuracies
+
+Chart 6
+X-Axis: Number of files used to train with
+Y-Axis: Time taken to train on that number of files (Note this is NOT average time)
+
+Chart 7
+X-Axis: Number of files used to train with
+Y-Axis: Overall accuracy using wgl2 on testSet (Note this is NOT average accuracy)
+NOTE- Chart7-colored has this same graph, but with lines from data from the smaller 
+trainer set to the data from the bigger set (so there is a line connecting the 
+overall accuracy of Eight1 and Eight2 to the overall accuracy of All) 
+
+Chart 8
+X-Axis: Number of files used to train with
+Y-Axis: Overall accuracy using tnt on testSet
+NOTE- This graph is of the same type as Chart 7 and has a corresponding colored 
+picture named Chart8-colored.

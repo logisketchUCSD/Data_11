@@ -1,0 +1,262 @@
+=== LabelStage Run #0 ==========
+
+Time elapsed: 00:00:03.4062500
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+Wire  |Wire  |Wire  |Label |Label |Label |Label |Wire  |Wire  |AND   |Wire  |NOR   |NOR   |Wire  |Wire  |NOR   |Wire  |Wire  |AND   |Wire  |AND   |XOR   |XOR   |XOR   |Wire  |Wire  |Wire  |Wire  |OR    |OR    |Wire  |Wire  |Wire  |Wire  |Label |Label |
+Wire  |Wire  |Gate  |Wire  |Wire  |Label |Label |Wire  |Wire  |Gate  |Wire  |Gate  |Gate  |Wire  |Wire  |Gate  |Label |Label |Label |Label |Label |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Label |Wire  |
+
+=== Confusion matrix ==============
+      |  Wire| Label|   AND|    OR|  NAND|   NOR|   XOR|   NOT|NOTBUB|LabelB| Other
+  Wire|    15|     3|     0|     0|     0|     0|     0|     0|     0|     0|     0
+ Label|     3|     3|     2|     0|     0|     0|     0|     0|     0|     0|     0
+  Gate|     1|     0|     1|     2|     0|     3|     3|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Wire| Label|  Gate
+  Wire|    15|     3|     0
+ Label|     3|     3|     2
+  Gate|     1|     0|     9
+
+
+=== LabelStage Run #1 ==========
+
+Time elapsed: 00:00:08.7656250
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+Label |Label |Label |Label |Label |Wire  |Wire  |Wire  |Wire  |Wire  |NOT   |NOT   |NOT   |Wire  |Wire  |Wire  |NOT   |NOT   |NOT   |Wire  |Wire  |Wire  |NOT   |NOT   |NOT   |NOT   |Wire  |Wire  |Wire  |Wire  |AND   |AND   |AND   |Wire  |Wire  |Wire  |Wire  |OR    |OR    |Wire  |OR    |Wire  |Wire  |Wire  |AND   |AND   |Wire  |Wire  |Wire  |AND   |AND   |Wire  |OR    |OR    |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |AND   |AND   |Wire  |Wire  |Wire  |Label |Label |
+Wire  |Wire  |Label |Label |Label |Gate  |Gate  |Gate  |Wire  |Label |Label |Label |Label |Label |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Gate  |Gate  |Wire  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |
+
+=== Confusion matrix ==============
+      |  Wire| Label|   AND|    OR|  NAND|   NOR|   XOR|   NOT|NOTBUB|LabelB| Other
+  Wire|    24|     3|     0|     0|     0|     0|     0|     0|     0|     0|     0
+ Label|     2|     3|     0|     0|     0|     0|     0|     3|     0|     0|     0
+  Gate|    14|     1|     9|     5|     0|     0|     0|     7|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Wire| Label|  Gate
+  Wire|    24|     3|     0
+ Label|     2|     3|     3
+  Gate|    14|     1|    21
+
+
+=== LabelStage Run #2 ==========
+
+Time elapsed: 00:00:11.1406250
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+OR    |OR    |Wire  |Wire  |Wire  |XOR   |XOR   |XOR   |Wire  |Wire  |Wire  |Wire  |NAND  |NAND  |NAND  |NOR   |Wire  |NOR   |NOR   |NOR   |NOR   |Wire  |Wire  |AND   |AND   |Label |Label |Label |Label |Label |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Label |Label |
+Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |
+
+=== Confusion matrix ==============
+      |  Wire| Label|   AND|    OR|  NAND|   NOR|   XOR|   NOT|NOTBUB|LabelB| Other
+  Wire|     9|     4|     0|     0|     0|     0|     0|     0|     0|     0|     0
+ Label|     0|     0|     0|     0|     0|     0|     0|     0|     0|     0|     0
+  Gate|     9|     3|     2|     2|     3|     5|     3|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Wire| Label|  Gate
+  Wire|     9|     4|     0
+ Label|     0|     0|     0
+  Gate|     9|     3|    15
+
+
+=== LabelStage Run #3 ==========
+
+Time elapsed: 00:00:21.4843750
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+AND   |AND   |Wire  |OR    |OR    |OR    |OR    |Wire  |Wire  |Other |Wire  |Wire  |Wire  |Wire  |Label |Label |Label |Label |Label |Wire  |Wire  |NOT   |NOT   |NOT   |Wire  |AND   |AND   |AND   |AND   |Wire  |Wire  |Wire  |AND   |AND   |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |NOT   |NOT   |NOT   |Wire  |Wire  |Label |Label |
+Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Gate  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Wire  |Label |Label |Wire  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Label |Label |
+
+=== Confusion matrix ==============
+      |  Wire| Label|   AND|    OR|  NAND|   NOR|   XOR|   NOT|NOTBUB|LabelB| Other
+  Wire|    19|     1|     0|     0|     0|     0|     0|     0|     0|     0|     0
+ Label|     0|     4|     0|     0|     0|     0|     0|     0|     0|     0|     0
+  Gate|     6|     2|     8|     4|     0|     0|     0|     6|     0|     0|     1
+
+=== Translated Confusion matrix ===
+      |  Wire| Label|  Gate
+  Wire|    19|     1|     0
+ Label|     0|     4|     0
+  Gate|     6|     2|    18
+
+
+=== LabelStage Run #4 ==========
+
+Time elapsed: 00:00:02.9843750
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+Label |Label |Label |Label |Label |AND   |AND   |Wire  |Wire  |Wire  |NOR   |NOR   |NOR   |Wire  |Wire  |Wire  |Wire  |NOR   |Wire  |NOT   |NOT   |NOT   |XOR   |XOR   |XOR   |XOR   |Wire  |Wire  |OR    |OR    |OR    |Wire  |Wire  |Wire  |Wire  |Wire  |Label |Label |
+Gate  |Wire  |Wire  |Label |Label |Gate  |Gate  |Wire  |Gate  |Wire  |Gate  |Wire  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Label |Label |
+
+=== Confusion matrix ==============
+      |  Wire| Label|   AND|    OR|  NAND|   NOR|   XOR|   NOT|NOTBUB|LabelB| Other
+  Wire|    10|     2|     0|     1|     0|     2|     0|     0|     0|     0|     0
+ Label|     0|     4|     0|     0|     0|     0|     0|     0|     0|     0|     0
+  Gate|     5|     1|     2|     2|     0|     2|     4|     3|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Wire| Label|  Gate
+  Wire|    10|     2|     3
+ Label|     0|     4|     0
+  Gate|     5|     1|    13
+
+
+=== LabelStage Run #5 ==========
+
+Time elapsed: 00:00:07.3437500
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+AND   |AND   |Label |Label |Label |Label |Wire  |AND   |OR    |OR    |OR    |Wire  |NOT   |NOT   |NOT   |Wire  |Wire  |AND   |AND   |AND   |Wire  |Wire  |Wire  |NOT   |NOT   |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |AND   |AND   |Wire  |Wire  |Wire  |OR    |OR    |OR    |Wire  |Wire  |Wire  |AND   |AND   |Wire  |Wire  |Wire  |Label |Label |
+Gate  |Gate  |Gate  |Gate  |Label |Label |Wire  |Wire  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Gate  |Gate  |Wire  |Label |Wire  |Gate  |Wire  |
+
+=== Confusion matrix ==============
+      |  Wire| Label|   AND|    OR|  NAND|   NOR|   XOR|   NOT|NOTBUB|LabelB| Other
+  Wire|    10|     1|     1|     1|     0|     0|     0|     0|     0|     0|     0
+ Label|     1|     2|     0|     0|     0|     0|     0|     0|     0|     0|     0
+  Gate|    11|     3|     9|     5|     0|     0|     0|     5|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Wire| Label|  Gate
+  Wire|    10|     1|     2
+ Label|     1|     2|     0
+  Gate|    11|     3|    19
+
+
+=== LabelStage Run #6 ==========
+
+Time elapsed: 00:00:07.3750000
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+LabelB|LabelB|LabelB|LabelB|Label |LabelB|LabelB|LabelB|LabelB|Label |Label |LabelB|LabelB|Label |LabelB|LabelB|Label |OR    |OR    |Wire  |NAND  |NAND  |NAND  |AND   |AND   |Wire  |Wire  |Wire  |Wire  |Wire  |NAND  |NAND  |NAND  |Wire  |Wire  |XOR   |XOR   |Wire  |Wire  |XOR   |Wire  |Wire  |Wire  |
+Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Gate  |Gate  |Wire  |Wire  |Gate  |Wire  |Wire  |Wire  |
+
+=== Confusion matrix ==============
+      |  Wire| Label|   AND|    OR|  NAND|   NOR|   XOR|   NOT|NOTBUB|LabelB| Other
+  Wire|    13|     0|     0|     0|     0|     0|     0|     0|     0|     1|     0
+ Label|     0|     0|     0|     0|     0|     0|     0|     0|     0|     0|     0
+  Gate|     0|     5|     2|     2|     6|     0|     3|     0|     0|    11|     0
+
+=== Translated Confusion matrix ===
+      |  Wire| Label|  Gate
+  Wire|    13|     1|     0
+ Label|     0|     0|     0
+  Gate|     0|    16|    13
+
+
+=== LabelStage Run #7 ==========
+
+Time elapsed: 00:00:15.6875000
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+LabelB|LabelB|Label |Label |LabelB|LabelB|Label |Label |LabelB|LabelB|Label |LabelB|LabelB|Label |Wire  |AND   |AND   |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |NOT   |NOT   |NOT   |Wire  |AND   |AND   |Wire  |Wire  |Wire  |Wire  |OR    |OR    |Wire  |Wire  |Wire  |AND   |AND   |Wire  |Wire  |NOTBUB|Wire  |AND   |AND   |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |OR    |OR    |Wire  |Wire  |Wire  |Wire  |
+Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Wire  |Wire  |Gate  |Wire  |Wire  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Wire  |Wire  |Wire  |Gate  |Gate  |Wire  |Gate  |Wire  |Wire  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |
+
+=== Confusion matrix ==============
+      |  Wire| Label|   AND|    OR|  NAND|   NOR|   XOR|   NOT|NOTBUB|LabelB| Other
+  Wire|    25|     0|     0|     0|     0|     0|     0|     0|     1|     0|     0
+ Label|     0|     0|     0|     0|     0|     0|     0|     0|     0|     0|     0
+  Gate|     3|     6|     8|     4|     0|     0|     0|     3|     0|     8|     0
+
+=== Translated Confusion matrix ===
+      |  Wire| Label|  Gate
+  Wire|    25|     0|     1
+ Label|     0|     0|     0
+  Gate|     3|    14|    15
+
+
+=== LabelStage Run #8 ==========
+
+Time elapsed: 00:00:24.5156250
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+NOR   |NOR   |NOR   |NOR   |AND   |AND   |Wire  |NAND  |NAND  |NAND  |XOR   |XOR   |XOR   |XOR   |Wire  |Wire  |OR    |OR    |OR    |Wire  |Wire  |LabelB|LabelB|Label |Label |LabelB|LabelB|Label |Label |Wire  |Wire  |Wire  |LabelB|LabelB|LabelB|Label |Label |Label |Wire  |Wire  |Wire  |LabelB|LabelB|Label |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |
+Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Gate  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |
+
+=== Confusion matrix ==============
+      |  Wire| Label|   AND|    OR|  NAND|   NOR|   XOR|   NOT|NOTBUB|LabelB| Other
+  Wire|    14|     0|     0|     2|     0|     0|     1|     0|     0|     0|     0
+ Label|     0|     0|     0|     0|     0|     0|     0|     0|     0|     0|     0
+  Gate|     3|     8|     2|     1|     3|     4|     3|     0|     0|     9|     0
+
+=== Translated Confusion matrix ===
+      |  Wire| Label|  Gate
+  Wire|    14|     0|     3
+ Label|     0|     0|     0
+  Gate|     3|    17|    13
+
+
+=== LabelStage Run #9 ==========
+
+Time elapsed: 00:00:28.9375000
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+OR    |OR    |OR    |NOT   |NOT   |NOT   |NOT   |Wire  |AND   |AND   |AND   |Wire  |AND   |AND   |AND   |AND   |OR    |OR    |OR    |AND   |AND   |Wire  |Wire  |Wire  |LabelB|LabelB|LabelB|LabelB|LabelB|Label |Label |NOT   |NOT   |NOT   |NOT   |Wire  |LabelB|LabelB|LabelB|LabelB|LabelB|Label |Label |Label |Wire  |Wire  |Wire  |Wire  |Wire  |LabelB|LabelB|Label |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |LabelB|LabelB|LabelB|LabelB|Label |Wire  |Wire  |Wire  |Wire  |
+Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Wire  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Wire  |Gate  |
+
+=== Confusion matrix ==============
+      |  Wire| Label|   AND|    OR|  NAND|   NOR|   XOR|   NOT|NOTBUB|LabelB| Other
+  Wire|    16|     1|     0|     1|     0|     0|     0|     0|     0|     3|     0
+ Label|     0|     0|     0|     0|     0|     0|     0|     0|     0|     0|     0
+  Gate|     8|     6|     9|     5|     0|     0|     0|     8|     0|    13|     0
+
+=== Translated Confusion matrix ===
+      |  Wire| Label|  Gate
+  Wire|    16|     4|     1
+ Label|     0|     0|     0
+  Gate|     8|    19|    22
+
+
+
+
+===============================================
+=== TOTAL RESULTS =============================
+===============================================
+
+Total time elapsed: 00:02:11.6406250
+Avg time elapsed:   00:00:13.1640000
+Max time elapsed:   00:00:28.9375000
+
+Hand-labeled sketches: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketches:    0 unlabeled,  0 overlabeled substrokes
+
+=== TOTAL CONFUSION MATRIX ====================
+      |  Wire| Label|   AND|    OR|  NAND|   NOR|   XOR|   NOT|NOTBUB|LabelB| Other
+  Wire|   155|    15|     1|     5|     0|     2|     1|     0|     1|     4|     0
+ Label|     6|    16|     2|     0|     0|     0|     0|     3|     0|     0|     0
+  Gate|    60|    35|    52|    32|    12|    14|    16|    32|     0|    41|     1
+
+
+=== TOTAL TRANSLATED CONFUSION MATRIX =========
+      |  Wire| Label|  Gate
+  Wire|   155|    19|    10
+ Label|     6|    16|     5
+  Gate|    60|    76|   158
+
+=== OVERALL ACCURACY ==========================
+Wire: 0.701357466063348
+Label: 0.144144144144144
+Gate: 0.913294797687861
+
+All: 0.651485148514852

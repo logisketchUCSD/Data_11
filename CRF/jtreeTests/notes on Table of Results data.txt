@@ -1,0 +1,105 @@
+The first sheet in Table of Results (called testSet) is the result of testing on the 
+following set of sketches
+
+testSet:
+HMC users 1, 5 and 10
+UC Riverside users 2 and 6
+(sketches can be found in the repository under 
+Data\Gate Study Data\LabeledSketches\TabletPC and then either HMC or UCR)
+
+We trained on 16 different single sketches one at a time, and recorded the accuracies
+that resulted from testing on testSet. We then combined two of the 16 original sketches
+to have 8 doubles to train on, and recorded those accuracies. The name of the two files 
+above another file show which files were used in which sets.
+
+For example:
+H2_1 (HMC user 2 sketch 1) and H7_2 (HMC user 7 sketch 2) are both above H1. This means 
+we had the CRF train on both of them together and labeled the trained file H1.
+
+We started off using the gate/non-gate labeling (section 1; sections are seperated with
+a dark blue line). Then we moved onto wire/gate/label labeling (section 2), however, we 
+removed HMC user 3 because it was taking a significant amount of time to train on those 
+files (we're guessing because of the very dense dots used to signify that two wire 
+intersect). Those sketches were replaced with H4_2 and H8_2. This was done in order to 
+get a rough idea of accuracies in a 2-way classifier versus a 3-way one.
+
+Section 3
+Next we wanted to see how accuracy and time taken to train changed as one sketch at a
+time was added from the set of 8 sketches called Eight2 to the full set of 16 sketches.
+However, when we did this is was after we modified the full-wgl.txt file to reflect a 
+minor change in labeling. Eight2New, nine, ten, eleven2, twelve, thirteen, fourteen, 
+fifteen, and allNew used full-wgl2 whicle Eight2 and all were just the values from the
+previous set of data on the Excel sheet copy-pasted down.
+
+Section 4
+The next set of data on this sheet is all of the second set of data retrained using
+full-wgl2 instead of full-wgl.
+
+Section 5
+This section on this sheet is a continuation of the adding one sketch at a time 
+data, but this time the goal was to see how many sketches were needed before the 
+accuracies would stop improving.
+
+Section 6
+This is the same as Section 3 but using text/non-text instead of wire/gate/label.
+
+Section 7
+This is the same as Section 3 but without fragmenting the data when training it 
+(taking out the -ft)
+
+Section 8
+Same as Section 3 but with fragmenting the data when testing. (puting in a -f in 
+the brackets)
+
+Section 9
+This section combines 7 and 8 in that it has the results from using the 
+non-fragmented tcrfs from Section 7 and testing on the fragmented testSet.
+
+Section 10
+Training and testing in tnt without fragmenting during training.
+
+NOTE: Data taken using the same tcrfs should have the same times since all times are 
+from training and NOT from testing.
+
+The second sheet, testSet2, took the trained CRFs from the first sheet Section 4, 5, 
+and 6 and tested them on a different set of sketches called testSet2, consisting of 
+the following:
+
+testSet2:
+HMC users 6 and 11
+UC Riverside users 8, 10, and 11
+
+EricTestSet
+This sheet was started in an attempt to compare our CRF results to that of Eric P's 
+but it turns out some of the sketches were too complicated for it to handle, so we 
+stopped fairly early into it.
+
+The next sheet, Family Tree, was an attempt to see if the CRF would run in a different 
+domain. In this case, we were testing the Family Tree domain instead of the Digital 
+Circuits domain, and we tested on the same sketch we trained on (to make sure we got 100% 
+accuracy). However, we soon stopped since the program didn't want to work on 
+anything other than the simplest sketches.
+
+The 5th sheet was used to compare testing time and classification accuracies for jtree 
+and loopybp. The jtree data of the 3rd section on this sheet was taken from the next 
+sheet, WGL. The only different is that the testing times for the sets was included.
+
+The 6th sheet, WGL, holds the results from training and testing on data in the folder 
+Data\WGL. The sketches in a set are as follows
+
+Training (8 sketches): 0128_6.1.1, 0502_3.6.1, 11-6_2.2.1, 1106_2.4.1, 1357_3.7.1, 
+2468_3.3.1, 3274_3.2.1, and 9171_3.8.1
+
+Training2 (8 sketches): 0268_1.7.1, 0268_3.3.1, 0268_3.4.1, 0268_3.7.1, 1106_2.1.1, 
+1585_2.5.1, 1878_2.2.1, and 4242_1.3.1
+
+Testing (10 sketches): 0128_1.6.1, 0128_3.5.1, 0268_2.6.1, 0268_3.5.1, 0502_3.5.1, 
+1106_2.3.1, 1234_3.1.1, 1500_3.4.1, 1585_2.7.1, and 9171_3.2.1
+
+Testing2 (6 sketches): 0128_3.6.1, 0502_3.10.1, 1234_3.4.1, 1585_2.2.1, 4242_1.2.1, 
+and 4242_2.7.1 
+
+The name of the set above the row "Tested On" is the set that was trained on.
+
+The final sheet, Summary, has the averages from the first two sheets side by side for
+an easier comparison.

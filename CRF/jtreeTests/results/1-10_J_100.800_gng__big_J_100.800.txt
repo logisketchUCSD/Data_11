@@ -1,0 +1,50 @@
+=== LabelStage Run #0 ==========
+
+Time elapsed: 00:00:41.2500000
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+AND   |AND   |AND   |AND   |Wire  |OR    |OR    |OR    |Wire  |OR    |OR    |Wire  |Wire  |Wire  |Wire  |Wire  |Wire  |XOR   |XOR   |Wire  |Wire  |Wire  |Label |Label |Label |Wire  |Label |Label |Label |Wire  |Label |Label |NOT   |NOT   |Wire  |Wire  |Wire  |Wire  |NOT   |NOT   |Wire  |Label |Label |Wire  |Wire  |Label |Label |NOT   |NOT   |Wire  |Wire  |
+Gate  |Gate  |Gate  |Nongat|Nongat|Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Gate  |Nongat|Nongat|Gate  |Nongat|Nongat|Gate  |Gate  |Nongat|Nongat|Nongat|Gate  |Nongat|Nongat|Gate  |Gate  |Gate  |Gate  |Nongat|Gate  |Gate  |Gate  |Gate  |Nongat|Nongat|Gate  |Nongat|Gate  |Gate  |Nongat|Gate  |Gate  |Nongat|Nongat|Gate  |Nongat|Gate  |Gate  |Nongat|Nongat|
+
+=== Confusion matrix ==============
+      |  Wire| Label|   AND|    OR|  NAND|   NOR|   XOR|   NOT|
+Nongat|    17|     3|     1|     0|     0|     0|     0|     0|     0
+  Gate|     5|     9|     3|     5|     0|     0|     2|     6|     0
+
+=== Translated Confusion matrix ===
+      |Nongat|  Gate
+Nongat|    20|     1
+  Gate|    14|    16
+
+
+
+
+===============================================
+=== TOTAL RESULTS =============================
+===============================================
+
+Total time elapsed: 00:00:41.2500000
+Avg time elapsed:   00:00:41.2500000
+Max time elapsed:   00:00:41.2500000
+
+Hand-labeled sketches: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketches:    0 unlabeled,  0 overlabeled substrokes
+
+=== TOTAL CONFUSION MATRIX ====================
+      |  Wire| Label|   AND|    OR|  NAND|   NOR|   XOR|   NOT|
+Nongat|    17|     3|     1|     0|     0|     0|     0|     0|     0
+  Gate|     5|     9|     3|     5|     0|     0|     2|     6|     0
+
+
+=== TOTAL TRANSLATED CONFUSION MATRIX =========
+      |Nongat|  Gate
+Nongat|    20|     1
+  Gate|    14|    16
+
+=== OVERALL ACCURACY ==========================
+Nongate: 0.588235294117647
+Gate: 0.941176470588235
+
+All: 0.705882352941177

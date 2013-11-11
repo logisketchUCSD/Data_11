@@ -1,0 +1,55 @@
+=== LabelStage Run #0 ==========
+
+Time elapsed: 00:00:10.2812500
+Hand-labeled sketch: 1 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+Label |Label |Label |Label |Label |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Gate  |Wire  |Wire  |Label |Label |Label |Wire  |Wire  |?     |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Label |Label |
+Label |Label |Label |Label |Label |Wire  |Wire  |Gate  |Gate  |Wire  |Wire  |Wire  |Wire  |Gate  |Gate  |Gate  |Wire  |Wire  |Gate  |Gate  |Gate  |Label |Label |Label |Label |Label |Label |Label |Label |Wire  |Wire  |Wire  |Wire  |Gate  |Wire  |Label |Label |Wire  |Gate  |
+
+=== Confusion matrix ==============
+      |  Wire|  Gate| Label|     ?
+  Wire|    10|     2|     1|     1
+  Gate|     1|     8|     1|     0
+ Label|     4|     3|     8|     0
+
+=== Translated Confusion matrix ===
+      |  Wire|  Gate| Label
+  Wire|    10|     2|     1
+  Gate|     1|     8|     1
+ Label|     4|     3|     8
+
+
+
+
+===============================================
+=== TOTAL RESULTS =============================
+===============================================
+
+Total time elapsed: 00:00:10.2812500
+Avg time elapsed:   00:00:10.2810000
+Max time elapsed:   00:00:10.2812500
+
+Hand-labeled sketches: 1 unlabeled,  0 overlabeled substrokes
+Resulting sketches:    0 unlabeled,  0 overlabeled substrokes
+
+=== TOTAL CONFUSION MATRIX ====================
+      |  Wire|  Gate| Label|     ?
+  Wire|    10|     2|     1|     1
+  Gate|     1|     8|     1|     0
+ Label|     4|     3|     8|     0
+
+
+=== TOTAL TRANSLATED CONFUSION MATRIX =========
+      |  Wire|  Gate| Label
+  Wire|    10|     2|     1
+  Gate|     1|     8|     1
+ Label|     4|     3|     8
+
+=== OVERALL ACCURACY ==========================
+Wire: 0.666666666666667
+Gate: 0.615384615384615
+Label: 0.8
+
+All: 0.684210526315789

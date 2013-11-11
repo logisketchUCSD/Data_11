@@ -1,0 +1,354 @@
+=== LabelStage Run #0 ==========
+
+Time elapsed: 00:00:00.2656250
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+|Female
+|Node  
+
+=== Confusion matrix ==============
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|     0|     1|     0|     0|     0|     0|     0
+  Link|     0|     0|     0|     0|     0|     0|     0
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Node|  Link|  Text
+  Node|     1|     0|     0
+  Link|     0|     0|     0
+  Text|     0|     0|     0
+
+
+=== LabelStage Run #1 ==========
+
+Time elapsed: 00:00:00
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+|Marria
+|Link  
+
+=== Confusion matrix ==============
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|     0|     0|     0|     0|     0|     0|     0
+  Link|     0|     0|     0|     1|     0|     0|     0
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Node|  Link|  Text
+  Node|     0|     0|     0
+  Link|     0|     1|     0
+  Text|     0|     0|     0
+
+
+=== LabelStage Run #2 ==========
+
+Time elapsed: 00:00:00
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+|Male  
+|Node  
+
+=== Confusion matrix ==============
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|     1|     0|     0|     0|     0|     0|     0
+  Link|     0|     0|     0|     0|     0|     0|     0
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Node|  Link|  Text
+  Node|     1|     0|     0
+  Link|     0|     0|     0
+  Text|     0|     0|     0
+
+
+=== LabelStage Run #3 ==========
+
+Time elapsed: 00:00:00.0937500
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+|Female|ChildL|ChildL|Female
+|Node  |Link  |Link  |Node  
+
+=== Confusion matrix ==============
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|     0|     2|     0|     0|     0|     0|     0
+  Link|     0|     0|     2|     0|     0|     0|     0
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Node|  Link|  Text
+  Node|     2|     0|     0
+  Link|     0|     2|     0
+  Text|     0|     0|     0
+
+
+=== LabelStage Run #4 ==========
+
+Time elapsed: 00:00:00.2812500
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+|Male  |Male  |Male  |Marria|Male  |Male  |Male  |ChildL|ChildL|ChildL|Female
+|Node  |Link  |Link  |Link  |Node  |Link  |Link  |Link  |Link  |Link  |Node  
+
+=== Confusion matrix ==============
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|     2|     1|     0|     0|     0|     0|     0
+  Link|     4|     0|     3|     1|     0|     0|     0
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Node|  Link|  Text
+  Node|     3|     0|     0
+  Link|     4|     4|     0
+  Text|     0|     0|     0
+
+
+=== LabelStage Run #5 ==========
+
+Time elapsed: 00:00:00.1406250
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+|Male  |Male  |Male  |Marria|Male  |Male  |Male  |ChildL|ChildL|ChildL
+|Node  |Link  |Link  |Link  |Node  |Link  |Link  |Link  |Link  |Link  
+
+=== Confusion matrix ==============
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|     2|     0|     0|     0|     0|     0|     0
+  Link|     4|     0|     3|     1|     0|     0|     0
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Node|  Link|  Text
+  Node|     2|     0|     0
+  Link|     4|     4|     0
+  Text|     0|     0|     0
+
+
+=== LabelStage Run #6 ==========
+
+Time elapsed: 00:00:07.9687500
+Hand-labeled sketch: 1 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+|Male  |Male  |Male  |ChildL|ChildL|Female|ChildL|ChildL|ChildL|ChildL|ChildL|ChildL|ChildL|ChildL|ChildL|ChildL|Female|Male  |Female|Male  |ChildL|ChildL|ChildL|ChildL|Marria|ChildL|ChildL|ChildL|ChildL|ChildL|ChildL|ChildL|ChildL|ChildL|ChildL|ChildL|ChildL|Female|Male  |?     |Male  |Male  |Male  |Male  |Female|Female|Male  |Male  |Male  |Marria|Female|Female|Female|Female|Female|Female|Female|Male  |Male  |Male  |ChildL|ChildL|Male  |Male  |Male  |Marria|Female|ChildL|ChildL
+|Node  |Link  |Node  |Link  |Link  |Node  |Link  |Link  |Node  |Link  |Link  |Link  |Link  |Link  |Link  |Link  |Node  |Node  |Node  |Node  |Link  |Link  |Link  |Link  |Link  |Link  |Link  |Link  |Link  |Node  |Link  |Node  |Node  |Node  |Link  |Link  |Link  |Node  |Node  |Link  |Node  |Node  |Node  |Node  |Node  |Link  |Link  |Node  |Link  |Link  |Node  |Node  |Node  |Node  |Node  |Node  |Node  |Node  |Node  |Node  |Node  |Link  |Node  |Node  |Node  |Link  |Node  |Node  |Link  
+
+=== Confusion matrix ==============
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|    16|    13|     7|     0|     0|     0|     0
+  Link|     3|     1|    25|     3|     0|     0|     1
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Node|  Link|  Text
+  Node|    29|     7|     0
+  Link|     4|    28|     0
+  Text|     0|     0|     0
+
+
+=== LabelStage Run #7 ==========
+
+Time elapsed: 00:00:00
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+|Female
+|Node  
+
+=== Confusion matrix ==============
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|     0|     1|     0|     0|     0|     0|     0
+  Link|     0|     0|     0|     0|     0|     0|     0
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Node|  Link|  Text
+  Node|     1|     0|     0
+  Link|     0|     0|     0
+  Text|     0|     0|     0
+
+
+=== LabelStage Run #8 ==========
+
+Time elapsed: 00:00:00
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+|Marria
+|Link  
+
+=== Confusion matrix ==============
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|     0|     0|     0|     0|     0|     0|     0
+  Link|     0|     0|     0|     1|     0|     0|     0
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Node|  Link|  Text
+  Node|     0|     0|     0
+  Link|     0|     1|     0
+  Text|     0|     0|     0
+
+
+=== LabelStage Run #9 ==========
+
+Time elapsed: 00:00:00
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+|Male  
+|Node  
+
+=== Confusion matrix ==============
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|     1|     0|     0|     0|     0|     0|     0
+  Link|     0|     0|     0|     0|     0|     0|     0
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Node|  Link|  Text
+  Node|     1|     0|     0
+  Link|     0|     0|     0
+  Text|     0|     0|     0
+
+
+=== LabelStage Run #10 ==========
+
+Time elapsed: 00:00:00.0625000
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+|Female|ChildL|Female
+|Node  |Link  |Node  
+
+=== Confusion matrix ==============
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|     0|     2|     0|     0|     0|     0|     0
+  Link|     0|     0|     1|     0|     0|     0|     0
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Node|  Link|  Text
+  Node|     2|     0|     0
+  Link|     0|     1|     0
+  Text|     0|     0|     0
+
+
+=== LabelStage Run #11 ==========
+
+Time elapsed: 00:00:00.1875000
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+|Male  |Male  |Marria|Male  |Male  |Female|ChildL|ChildL
+|Link  |Node  |Link  |Node  |Node  |Node  |Link  |Link  
+
+=== Confusion matrix ==============
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|     3|     1|     0|     0|     0|     0|     0
+  Link|     1|     0|     2|     1|     0|     0|     0
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Node|  Link|  Text
+  Node|     4|     0|     0
+  Link|     1|     3|     0
+  Text|     0|     0|     0
+
+
+=== LabelStage Run #12 ==========
+
+Time elapsed: 00:00:04.0312500
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+|Female|Marria|Male  |Male  |ChildL|Female|ChildL|Male  |Male  |ChildL|Male  |Male  |ChildL|Male  |Divorc|Female|ChildL|Female|ChildL|Female|Marria|Male  |Male  |ChildL|Male  |Male  |ChildL|Female|Marria|Female|Female|Marria|Male  |Male  |ChildL|ChildL|Male  |Male  
+|Node  |Node  |Node  |Node  |Node  |Node  |Link  |Node  |Node  |Link  |Node  |Link  |Link  |Node  |Link  |Node  |Link  |Node  |Link  |Node  |Link  |Node  |Node  |Link  |Node  |Node  |Link  |Node  |Node  |Node  |Node  |Node  |Link  |Link  |Link  |Link  |Node  |Node  
+
+=== Confusion matrix ==============
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|    12|     8|     1|     3|     0|     0|     0
+  Link|     3|     0|     9|     1|     1|     0|     0
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Node|  Link|  Text
+  Node|    20|     4|     0
+  Link|     3|    11|     0
+  Text|     0|     0|     0
+
+
+=== LabelStage Run #13 ==========
+
+Time elapsed: 00:00:04.0937500
+Hand-labeled sketch: 0 unlabeled,  0 overlabeled substrokes
+Resulting sketch:    0 unlabeled,  0 overlabeled substrokes
+
+True labels vs result labels:
+|Female|Male  |Male  |Male  |ChildL|ChildL|ChildL|ChildL|Marria|Female|Male  |Marria|ChildL|ChildL|ChildL|ChildL|Female|Male  |Marria|ChildL|ChildL|ChildL|ChildL
+|Node  |Link  |Node  |Node  |Link  |Link  |Link  |Link  |Link  |Node  |Node  |Link  |Link  |Link  |Link  |Link  |Node  |Node  |Link  |Link  |Link  |Link  |Link  
+
+=== Confusion matrix ==============
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|     4|     3|     0|     0|     0|     0|     0
+  Link|     1|     0|    12|     3|     0|     0|     0
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+=== Translated Confusion matrix ===
+      |  Node|  Link|  Text
+  Node|     7|     0|     0
+  Link|     1|    15|     0
+  Text|     0|     0|     0
+
+
+
+
+===============================================
+=== TOTAL RESULTS =============================
+===============================================
+
+Total time elapsed: 00:00:17.1250000
+Avg time elapsed:   00:00:01.2230000
+Max time elapsed:   00:00:07.9687500
+
+Hand-labeled sketches: 1 unlabeled,  0 overlabeled substrokes
+Resulting sketches:    0 unlabeled,  0 overlabeled substrokes
+
+=== TOTAL CONFUSION MATRIX ====================
+      |  Male|Female|ChildL|Marria|Divorc|  Text|     ?
+  Node|    41|    32|     8|     3|     0|     0|     0
+  Link|    16|     1|    57|    12|     1|     0|     1
+  Text|     0|     0|     0|     0|     0|     0|     0
+
+
+=== TOTAL TRANSLATED CONFUSION MATRIX =========
+      |  Node|  Link|  Text
+  Node|    73|    11|     0
+  Link|    17|    70|     0
+  Text|     0|     0|     0
+
+=== OVERALL ACCURACY ==========================
+Node: 0.811111111111111
+Link: 0.864197530864197
+Text: NaN
+
+All: 0.83625730994152
